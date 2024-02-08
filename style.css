@@ -1,0 +1,139 @@
+/* style.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 7px;
+  color: white;
+  background-color: #0e0501;
+}
+
+#circleImage {
+  border-radius: 50%;
+  border: 2.5px solid purple;
+  width: 240px;
+  height: 240px;
+  padding: 0px;
+  margin: 40px
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 80px;
+  letter-spacing: 10px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-weight: 200;
+  letter-spacing: 8px;
+  color: purple;
+  padding-bottom: 2px;
+}
+
+p {
+  line-height: 1.4;
+  text-align: justify;
+  letter-spacing: 3px;
+  max-width: 600px;
+  margin: 20px auto;
+  padding-top: 10px;
+}
+
+button {
+  color: #000000;
+  font-weight: 900;
+  background-color: grey;
+  border: none;
+  padding: 7px 15px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: limegreen;
+}
+
+ul {
+  list-style: none; /* Removes bullet points from the list */
+  padding: 7px 15px;
+
+}
+
+ul a:hover {
+  color: limegreen;
+  list-style: none;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.list-inline{
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+i {
+  color: grey;
+  font-size: 2em;
+}
+
+i:hover {
+  color: limegreen;
+}
+
+.container {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: #0e0501;
+  margin: 0px;
+  display: inline-block; /* makes divs sit side by side */
+  vertical-align: top; /* aligns the boxes to the top of the line */
+}
+
+#wider-text {
+  letter-spacing: 8.5px;
+}
+
+strong {
+  color: limegreen;
+  font-weight: 100;
+}
+
+#green-x {
+  color: limegreen;
+}
+
+@media screen and (max-width: 480px) {
+  #circleImage {
+    width: 140px;
+    height: 140px;
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+
+  h2 {
+    letter-spacing: 4px;
+  }
+
+  p {
+    max-width: 90%;
+  }
+}
